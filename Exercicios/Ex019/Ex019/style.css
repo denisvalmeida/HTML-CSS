@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(193, 247, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}   
+h1{
+    color: rgb(5, 83, 83);
+}
+h1#principal{
+    text-align: center;
+}
+h2{
+    color: rgb(6, 117, 117);
+}
+.basico{
+    background-color: rgb(6, 117, 117);
+    color: white;
+    text-indent: 5px;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}

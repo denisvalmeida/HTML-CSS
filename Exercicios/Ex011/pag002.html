@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Testando midias de tamanhos diferentes</h1>
+        <p>As imgens abaixo se ajustam conforme o tamanho da tela do seu dispositivo</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/rocky_300.jpeg" type="image/jpeg">
+            <source media="(max-width: 1050px)" srcset="imagens/rocky_700.jpeg" type="image/jpeg">
+            <img src="Imagens/rocky_1000.jpeg" alt="Imagem dinamica">
+        </picture>
+    <h1>Reproduzindo Áudios</h1>
+        <p>aprendendo a inserir áudios no HTML5</p>
+        <audio src="midias/audio-teste.mp3" autoplay></audio>
+
+</body>
+</html>

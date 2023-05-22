@@ -1,0 +1,32 @@
+@charset "UTG-8";
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* 
+    Medidas absolutas: 
+        cm, mm, px, in (polegadas), pt, pc
+
+    Medidas relativa: 
+        em (relativa ao tamanho atual da fonte)  
+        ex (relativa à altura X de uma fonte)
+        rem
+        vh
+        vw
+        %
+    
+    */
+    font-size: 1em;
+    }
+h1{
+    /* shorthand font
+        ordem: font-style -> font-weight -> font-size -> font-family
+
+        Para fazer a mesma configuração sem o shorthand teríamos que digitar o seguinte:
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 1.5em;
+        font-family: 'work-sans', san-serif; (fonte usada apenas como exemplo)
+    */
+
+    font-style: italic;
+}

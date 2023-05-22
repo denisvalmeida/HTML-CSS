@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div{
+    display: inline-block;
+    text-align: center;
+    background-color: lightgray;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+body{   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div:hover{  
+    background-color: blueviolet;
+}
